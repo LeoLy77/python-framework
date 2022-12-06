@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "py-framework-poet"
+version = "0.1.0"
+description = ""
+authors = ["Leo Ly"]
+readme = "README.md"
+packages = [{include = "py_framework_poet"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+scikit-learn = "^1.1.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
