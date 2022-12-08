@@ -1,0 +1,5 @@
+alias dockerrun="docker run -it --rm"
+
+docker build -t py . > /dev/null
+docker network create my-interservice-network
+docker-compose up
